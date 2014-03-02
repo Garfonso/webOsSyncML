@@ -1,0 +1,19 @@
+[
+	{"source": "app/model/cPlugin.js" },
+	{"source": "app/model/iCal.js"},
+ 	{"source": "app/model/SyncMLAccount.js"},
+	{"source": "app/model/eventCallbacks.js"},
+    {"source": "app/assistants/stage-assistant.js"},
+    {
+        "scenes": "welcome",
+        "source": "app/assistants/welcome-assistant.js"
+    },
+    {
+        "scenes": "configSyncMLAccount",
+        "source": "app/assistants/configSyncMLAccount-assistant.js"
+    },
+    {
+        "scenes": "syncScene",
+        "source": "app/assistants/syncScene-assistant.js"
+    }
+]
